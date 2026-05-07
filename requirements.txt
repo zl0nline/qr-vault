@@ -1,0 +1,2 @@
+cryptography>=43,<46
+qrcode[pil]>=7.4,<9

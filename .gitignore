@@ -1,0 +1,37 @@
+# QR Vault — .gitignore
+
+# Generated keys & encrypted files (NEVER commit these)
+*.pem
+*.key1
+*.enc
+*_private_key_qr.png
+*_public_key_qr.png
+private_key_qr.png
+public_key_qr.png
+
+# Local test/sample sensitive documents
+samples/private/
+local-data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.build-venv/
+*.egg-info/
+
+# Build outputs
+build/
+dist/
+*.spec
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp

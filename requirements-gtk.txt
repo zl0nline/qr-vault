@@ -1,0 +1,2 @@
+# Optional legacy GTK4 UI dependencies (Linux only)
+PyGObject==3.46.0
