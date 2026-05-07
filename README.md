@@ -2,13 +2,17 @@
 
 **Release:** v0.3
 
-![QR Vault GUI preview](docs/qr-vault-gui-preview.png)
+![QR Vault interface preview](docs/qr-vault-gui-preview.png)
 
 QR Vault is a small local tool for encrypting files with hybrid RSA + AES encryption and exporting RSA keys as QR codes.
 
 **Core idea:** encrypt a file → get `.enc` + `.key1` + RSA keys (PEM + QR images). To decrypt, you need the `.enc` file, the `.key1` file, and the private RSA key.
 
 The private key QR can be printed on paper and stored in a safe — useful for digital inheritance / emergency handover scenarios.
+
+## Preview
+
+The image above is an interface preview generated from the current tkinter layout, not a platform screenshot.
 
 ## Features
 
@@ -111,13 +115,17 @@ MIT License.
 
 **Релиз:** v0.3
 
-![QR Vault GUI preview](docs/qr-vault-gui-preview.png)
+![QR Vault interface preview](docs/qr-vault-gui-preview.png)
 
 QR Vault — маленький локальный инструмент для шифрования файлов гибридной схемой RSA + AES и экспорта RSA-ключей в QR-коды.
 
 **Идея:** зашифровать файл → получить `.enc` + `.key1` + RSA-ключи (PEM + QR-картинки). Для расшифровки нужны `.enc`, `.key1` и приватный RSA-ключ.
 
 QR приватного ключа можно распечатать на бумаге и хранить в сейфе — это удобно для цифрового наследства / экстренной передачи доступа.
+
+## Превью
+
+Картинка выше — превью интерфейса, собранное по текущей tkinter-разметке, а не системный скриншот.
 
 ## Возможности
 
